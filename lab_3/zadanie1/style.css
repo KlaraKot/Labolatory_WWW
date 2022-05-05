@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #Header {
+    display: flex;
+  }
+  
+  #Header h3 {
+    margin-left: 10px;
+  }
+  
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  #Left {
+    width: 250px;
+  }
+  
+  #Right {
+    flex: 1;
+  }
+  
+ 
+  #Header {
+    clear: both;
+    padding: 0px 10px;
+    background-color: pink;
+  }
+
+  .footer{
+    clear: both;
+    padding: 0px 10px;
+    background-color: pink;
+    margin-left: auto;
+    display: flex;
+
+  }
